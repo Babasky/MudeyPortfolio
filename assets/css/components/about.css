@@ -91,20 +91,43 @@ section#about .services-list-item i{
 
 /**********************************MEDIA QUERIES********************************************/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     section#about{
         padding: 0;
     }
     .content .container-presentation{
         flex-direction: column;
-        width: 90%;
-        padding: 0;
+        width: 400px;
+        padding: 0 auto;
     }
 
     section#about .container-presentation .presentation{
-        width: 90%;
+        width: 70%;
     }
     section#about .container-presentation .testimonials .testimonials-description p{
-        margin-left: 20px;
+        margin-left: 0;
+        width: 250px;
+    }
+
+    section#about .services-list{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    section#about .services-list-item p{
+        text-align: center;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-image img{
+        left: -50px;
+        top: 220px;
+    }
+
+    section#about .container-presentation .testimonials .defilement{
+        margin-right: 80px;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-author{
+        margin-left: 50px;
     }
 }
