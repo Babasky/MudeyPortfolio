@@ -20,7 +20,11 @@ body{
 }
 
 
-
+@media screen and (max-width:1200px) {
+    .container-fluid aside{
+        width: 25%;
+    }   
+}
 
 
 @media screen and (max-width:800px) {
