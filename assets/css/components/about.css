@@ -1,0 +1,110 @@
+section#about{
+    border-right: 4px solid #ccc;
+}
+
+section#about .about-title h2{
+    background-color: gold;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px 10px 10px 80px;
+}
+
+section#about .about-job p{
+    color: gray;
+}
+
+section#about .container-presentation .presentation,section#about .container-presentation .testimonials{
+    text-align: justify;
+}
+
+section#about .container-presentation .presentation h4{
+    margin-bottom: 10px;
+}
+
+section#about .container-presentation .presentation p{
+    width: 300px;
+}
+
+
+section#about .container-presentation .testimonials h4{
+    text-decoration: underline 4px gold;
+    margin-bottom: 10px;
+}
+
+section#about .container-presentation .testimonials .testimonials-description p{
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: lightcyan;
+    margin-left: 30px;
+    width: 300px;
+    padding: 20px 30px;
+}
+
+
+section#about .container-presentation .testimonials .testimonial-image img{
+    width: 80px;
+    top: 190px;
+    left: 5px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+section#about .container-presentation .testimonials .testimonial-author h6{
+    margin-bottom: 10px;
+}
+section#about .container-presentation .testimonials .testimonial-author p{
+    color: gray;
+}
+section#about .container-presentation .testimonials .defilement i{
+    font-size: 1.2rem;
+    border: 0.1px solid #ccc;
+    background-color: rgb(240, 238, 238);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+section#about .service-title h4{
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: underline 3px gold;
+}
+
+section#about .services-list-item p{
+    text-align: left;
+}
+
+section#about .services-list-item h6{
+    margin-bottom: 15px;
+    font-size: 12px;
+
+}
+
+section#about .services-list-item i{
+    color: gol;
+    font-size: 2.5rem;
+}
+
+
+
+/**********************************MEDIA QUERIES********************************************/
+
+@media screen and (max-width:800px) {
+    section#about{
+        padding: 0;
+    }
+    .content .container-presentation{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+    }
+
+    section#about .container-presentation .presentation{
+        width: 90%;
+    }
+    section#about .container-presentation .testimonials .testimonials-description p{
+        margin-left: 20px;
+    }
+}

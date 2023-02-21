@@ -1,3 +1,7 @@
+.container-fluid aside{
+    background-color: white;
+    height: 100%;
+}
 
 .profile img{
     width: 150px;

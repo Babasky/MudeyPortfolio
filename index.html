@@ -9,8 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid flex gap-10">
-        <aside class="pt-20 box">
+    <div class="container-fluid flex">
+        <aside class="pt-20 box fixed-top">
            <div class="profile tc">
             <img src="assets/images/user.jpg" alt="photo de profile">
             <h3 class="mt-15 nowrap">Boureima MAIGA</h3>
@@ -19,8 +19,8 @@
            </div>
            <div class="menu tc">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="#">Resume</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Blog</a></li>
@@ -39,10 +39,11 @@
                 </a>
            </div>
         </aside>
-        <div class="content tc box relative">
-            <div class="settings absolute">
+        <div class="content tc box">
+            <div class="settings  fixed">
                 <i class="fa-solid fa-gear"></i>
             </div>
+            <!===========HOME SECTION================>
             <section id="home">
                 <div class="info">
                     <h1>Boureima MAIGA</h1>
@@ -66,6 +67,82 @@
                             <li>Phone</li>
                             <li>Available</li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!===========ABOUT SECTION================>
+
+            <section id="about" class="box ">
+                <div class="about flex">
+                    <div class="about-title">
+                        <h2 class="">About Me</h2>
+                    </div>
+                    <div class="about-job ml-10">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="container-presentation flex px-80 gap-50">
+                    <div class="presentation ">
+                        <h4 class="nowrap">I am web Developer/Designer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut     consequatur quis ducimus eveniet eum magni impedit eligendi dolorum hic? Laboriosam commodi dolorem quae unde adipisci obcaecati accusamus quaerat voluptatum asperiores.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut     consequatur quis ducimus eveniet eum magni impedit eligendi dolorum hic? Laboriosam commodi dolorem quae unde adipisci obcaecati accusamus quaerat voluptatum asperiores.
+                        </p>
+                    </div>
+                    <div class="testimonials relative">
+                        <div class="testimonials-description">
+                            <h4>Testimonials</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illum asperiores ullam sit consectetur assumenda tenetur consequuntur voluptate amet eligendi! Deleniti iure quas quidem, voluptatem odit esse dicta fuga numquam.</p>
+                        </div>
+                        <div class="testimonial-image flex jcsb">
+                            <img src="assets/images/user.jpg" class="absolute" alt="">
+                            <div class="testimonial-author ml-150 nowrap">
+                                <h6>Sidy Lamine DIAKITE</h6>
+                                <p>Web Developper</p>
+                            </div>
+                            <div class="defilement nowrap">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="services px-80">
+                    <div class="service-title">
+                        <h4>Services</h4>
+                    </div>
+                    <div class="services-list flex jcsb gap-20">
+                        <div class="services-list-item">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h6>Web design</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum et recusandae officiis, porro incidunt quidem ratione harum similique consequatur eum vel vero dolor optio quo. Delectus aperiam quaerat similique.
+                            </p>
+                        </div>
+                        <div class="services-list-item">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h6>Capywriter</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum et recusandae officiis, porro incidunt quidem ratione harum similique consequatur eum vel vero dolor optio quo. Delectus aperiam quaerat similique.
+                            </p>
+                        </div>
+                        <div class="services-list-item">
+                            <i class="fa-solid fa-store"></i>
+                            <h6>E-Commerce</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum et recusandae officiis, porro incidunt quidem ratione harum similique consequatur eum vel vero dolor optio quo. Delectus aperiam quaerat similique.
+                                
+                            </p>
+                        </div>
+                        <div class="services-list-item">
+                            <i class="fa-solid fa-book"></i>
+                            <h6>Management</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum et recusandae officiis, porro incidunt quidem ratione harum similique consequatur eum vel vero dolor optio quo. Delectus aperiam quaerat similique.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>

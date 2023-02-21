@@ -1,4 +1,7 @@
 @import url("framework/utiles.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import url("components/aside.css");
 @import url("components/content.css");
+@import url("components/home.css");
+@import url("components/about.css");
 @import url("../css/style.css");

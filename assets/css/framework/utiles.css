@@ -106,7 +106,7 @@ a {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 999999999999999999;
 }
 
 .fixed-bottom {
@@ -146,6 +146,7 @@ img{
 .nowrap {
   white-space: nowrap;
 }
+
 
 .wrap{
   flex-wrap: wrap;
@@ -409,6 +410,28 @@ img{
   padding-right: 50px;
 }
 
+.px-80{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.px-100{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.pl-100{
+  padding-left: 100px;
+}
+
+.pl-50{
+  padding-left: 50px;
+}
+
+
+.pr-100{
+  padding-right: 100px;
+}
 /*------------------
 # Margin Top
 ------------------*/
@@ -669,6 +692,21 @@ img{
   margin-left: 50px;
 }
 
+.ml-90{
+  margin-left: 90px;
+}
+.ml-100{
+  margin-left: 100px;
+}
+
+.ml-150{
+  margin-left: 150px;
+}
+
+.ml-200{
+  margin-left: 200px;
+}
+
 /*------------------
 # Margin Right
 ------------------*/
@@ -904,6 +942,26 @@ img{
 
 .gap-25 {
   gap: 25px;
+}
+
+.gap-30{
+  gap: 30px;
+}
+
+.gap-35{
+  gap: 35px;
+}
+
+.gap-40{
+  gap: 40px;
+}
+
+.gap-50{
+  gap: 50px;
+}
+
+.gap-100{
+  gap: 100px;
 }
 
 /*------------------*

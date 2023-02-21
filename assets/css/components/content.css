@@ -1,10 +1,11 @@
+
 .content .settings {
     right: 0;
     top: 100px;
     background-color: white;
     border-radius: 5px 0 0 5px;
     padding: 10px;
-    z-index: 99;
+    z-index: 9;
 }
 
 .content .settings i{
@@ -12,55 +13,3 @@
     color: gold;
     cursor: pointer;
 }
-
-.content section#home{
-    background-image: url('../../../assets/images/home.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
-    height: 100vh;
-    color: white;
-}
-
-.content section#home .info{
-    padding: 200px 0 0 0;
-}
-
-.content section#home .info h1{
-    margin-bottom: 10px;
-}
-
-.content section#home .info p{
-    font-size: 16px;
-    color: #ccc;
-}
-
-.content section#home .coordonnee{
-    margin-left: 350px;
-    margin-top: 50px;
-}
-
-.content section#home .coordonnee ul li{
-    text-decoration: underline 2px gold;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-.content section#home .coordonnee .coordonnee-details ul{
-    margin-left: 20px;
-    text-align: justify;
-}
-
-
-.content section#home .coordonnee .coordonnee-details ul li{
-    text-decoration: none;
-}
-
-/************************MEDIA*************************************/
-@media screen and(max-width:800px) {
-    .content section#home .coordonnee{
-        
-    }
-}
-
