@@ -44,8 +44,30 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:992px) {
+    .content section#home .coordonnee{
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content section#home .coordonnee{
+        margin-left: 170px;
+    }
+    
+}
+
+
+@media screen and (max-width:427px) {
+    .content section#home .info h1{
+        font-size: 1.5rem;
+    }
+
     .content section#home .coordonnee{
         margin-left: 50px;
+    }
+
+    .content section#home .coordonnee ul li{
+        font-size: 12px;
     }
 }

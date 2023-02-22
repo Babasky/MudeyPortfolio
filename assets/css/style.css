@@ -27,7 +27,20 @@ body{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:992px) {
+    .container-fluid{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-fluid aside{
+        width: 27%;   
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
     .container-fluid{
         flex-direction: column;
         gap: 0;
@@ -36,11 +49,14 @@ body{
     .container-fluid aside{
         width: 100%;
         height: 50px;
+        line-height: 50px;
+        padding: 0;
+        position: fixed;
         box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
     }
 
     .container-fluid .content{
-        width: 100%;
+        width: 100vw;
         height: 90vh;
         margin-left: 0;
     }

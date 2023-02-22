@@ -120,7 +120,7 @@ section#about .facts-items h5{
 }
 
 section#about .facts-items h2{
-    color: gold;
+    color: goldenrod;
     font-size: 25px;
     font-style: italic;
 }
@@ -170,6 +170,45 @@ section#about .facts-items h2{
     section#about .clients-logo{
         flex-wrap: wrap;
     }
+
+    section#about .container-presentation{
+        flex-direction: column;
+    }
+
+    section#about .container-presentation .presentation p{
+        width: 90%;
+    }
+
+    section#about .container-presentation .testimonials{
+        padding: 0 20px;
+    }
+
+    section#about .container-presentation .testimonials .testimonials-description p{
+        width: 80%;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-image img{
+        top: 160px;
+        left: 10px;
+        width: 70px;
+    }
+
+    section#about .container-presentation .testimonials .defilement{
+        margin-right: 68px;
+    }
+
+    section#about .services-list{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    section#about .services-list .services-list-item p{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
 }
 
 
@@ -179,7 +218,6 @@ section#about .facts-items h2{
     }
     .content .container-presentation{
         flex-direction: column;
-        width: 100%;
         align-items: center;
         margin-left: auto;
         text-align: center;
@@ -187,33 +225,97 @@ section#about .facts-items h2{
     }
 
     section#about .container-presentation .presentation{
-        width:400px;
-        text-align: start;;
+        text-align: center;
     }
+
+    section#about .container-presentation .presentation p{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section#about .container-presentation .testimonials .testimonials-description h4{
+        text-align: center;
+    }
+
     section#about .container-presentation .testimonials .testimonials-description p{
-        margin-left: 0;
-        width: 250px;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    section#about .services .service-title h4{
+        text-align: center;
     }
 
     section#about .services-list, section#about .facts-list{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section#about .facts-list .facts-items, section#about .services-list .services-list-item{
         width: 90%;
     }
 
-    section#about .services-list-item p{
-        text-align: center;
-    }
 
     section#about .container-presentation .testimonials .testimonial-image img{
-        left: -50px;
-        top: 220px;
+        left: 0;
+        top: 150px;
     }
 
     section#about .container-presentation .testimonials .defilement{
-        margin-right: 80px;
+        margin-right: 40px;
     }
+    
 
     section#about .container-presentation .testimonials .testimonial-author{
-        margin-left: 50px;
+        margin-left: 95px;
+    }
+
+    section#about .clients-title h4{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    section#about .clients-logo{
+        justify-content: center;
+    }
+
+    section#about .clients-logo img{
+        width: 80%;
+    }
+
+    section#about .facts-title h4{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    @media screen and (max-width:427px) {
+
+
+        section#about .container-presentation .testimonials .testimonials-description p{
+            width: 250px;
+            margin-bottom: 5px;
+        }
+
+
+        section#about .container-presentation .testimonials .defilement{
+            margin-left: 30px;
+        }
+        section#about .container-presentation .testimonials .defilement i{
+            font-size: 0.9rem;
+        }
+        section#about .container-presentation .testimonials .testimonial-image img{
+            width: 50px;
+            left: 33px;
+            top: 255px;
+        }
+
+        section#about .services-list p{
+            text-align: center;
+        }
+
+        section#about h4{
+            font-size: 1rem;
+        }
     }
 }
