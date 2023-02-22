@@ -30,7 +30,7 @@ section#about .container-presentation .presentation p{
 
 section#about .container-presentation .testimonials h4{
     text-decoration: underline 4px gold;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 section#about .container-presentation .testimonials .testimonials-description p{
@@ -38,24 +38,25 @@ section#about .container-presentation .testimonials .testimonials-description p{
     border-radius: 5px;
     background-color: lightcyan;
     margin-left: 30px;
-    width: 300px;
+    width: 280px;
     padding: 20px 30px;
 }
 
 
 section#about .container-presentation .testimonials .testimonial-image img{
     width: 80px;
-    top: 190px;
-    left: 5px;
+    top: 220px;
+    left: -15px;
     border: 2px solid #ccc;
     border-radius: 50%;
 }
 
 section#about .container-presentation .testimonials .testimonial-author h6{
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 section#about .container-presentation .testimonials .testimonial-author p{
     color: gray;
+    margin-top: 0;
 }
 section#about .container-presentation .testimonials .defilement i{
     font-size: 1.2rem;
@@ -67,7 +68,6 @@ section#about .container-presentation .testimonials .defilement i{
 
 
 section#about .service-title h4{
-    font-size: 16px;
     text-align: justify;
     text-decoration: underline 3px gold;
 }
@@ -87,6 +87,43 @@ section#about .services-list-item i{
     font-size: 2.5rem;
 }
 
+
+section#about .clients-title h4{
+    text-align: justify;
+    text-decoration: underline 3px gold;
+}
+
+section#about .clients-logo img{
+    width: 130px;
+}
+
+section#about .facts-title h4{
+    text-align: justify;
+    text-decoration: underline 3px gold;
+}
+
+section#about .facts-items{
+    box-shadow: 4px 12px 16px rgba(0, 0, 0, 0.2);
+    background-color: #fcfbfb;
+    padding: 30px 20px;
+}
+
+section#about .facts-items i{
+    font-size: 2rem;
+    color: #1d1d1d;
+}
+
+section#about .facts-items h5{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+section#about .facts-items h2{
+    color: gold;
+    font-size: 25px;
+    font-style: italic;
+}
 
 
 /**********************************MEDIA QUERIES********************************************/
@@ -129,6 +166,13 @@ section#about .services-list-item i{
 }
 
 
+@media screen and (max-width:992px) {
+    section#about .clients-logo{
+        flex-wrap: wrap;
+    }
+}
+
+
 @media screen and (max-width:768px) {
     section#about{
         padding: 0;
@@ -151,7 +195,7 @@ section#about .services-list-item i{
         width: 250px;
     }
 
-    section#about .services-list{
+    section#about .services-list, section#about .facts-list{
         flex-wrap: wrap;
         width: 90%;
     }
