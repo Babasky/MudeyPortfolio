@@ -57,6 +57,12 @@
     
 }
 
+@media screen and (max-width:576px) {
+    .content section#home .coordonnee{
+        margin-left: 100px;
+    }
+}
+
 
 @media screen and (max-width:427px) {
     .content section#home .info h1{
@@ -64,10 +70,10 @@
     }
 
     .content section#home .coordonnee{
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .content section#home .coordonnee ul li{
-        font-size: 12px;
+        font-size: 11px;
     }
 }

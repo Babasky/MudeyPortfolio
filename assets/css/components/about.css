@@ -289,25 +289,29 @@ section#about .facts-items h2{
     }
 
 
+
     @media screen and (max-width:427px) {
 
 
         section#about .container-presentation .testimonials .testimonials-description p{
-            width: 250px;
+            width: 180px;
             margin-bottom: 5px;
         }
 
 
         section#about .container-presentation .testimonials .defilement{
-            margin-left: 30px;
+            margin-left: 12px;
         }
         section#about .container-presentation .testimonials .defilement i{
-            font-size: 0.9rem;
+            font-size: 0.5rem;
         }
         section#about .container-presentation .testimonials .testimonial-image img{
-            width: 50px;
-            left: 33px;
-            top: 255px;
+            width: 40px;
+            left: 60px;
+            top: 310px;
+        }
+        section#about .container-presentation .testimonials .testimonial-author h6{
+            font-size: 0.8rem;
         }
 
         section#about .services-list p{
