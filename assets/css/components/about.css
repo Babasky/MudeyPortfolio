@@ -3,7 +3,7 @@ section#about{
 }
 
 section#about .about-title h2{
-    background-color: gold;
+    background-color: goldenrodenrod;
     font-size: 1.2rem;
     font-style: italic;
     margin-bottom: 5px;
@@ -29,7 +29,7 @@ section#about .container-presentation .presentation p{
 
 
 section#about .container-presentation .testimonials h4{
-    text-decoration: underline 4px gold;
+    text-decoration: underline 4px goldenrod;
     margin-bottom: 0px;
 }
 
@@ -69,7 +69,7 @@ section#about .container-presentation .testimonials .defilement i{
 
 section#about .service-title h4{
     text-align: justify;
-    text-decoration: underline 3px gold;
+    text-decoration: underline 3px goldenrod;
 }
 
 section#about .services-list-item p{
@@ -90,7 +90,7 @@ section#about .services-list-item i{
 
 section#about .clients-title h4{
     text-align: justify;
-    text-decoration: underline 3px gold;
+    text-decoration: underline 3px goldenrod;
 }
 
 section#about .clients-logo img{
@@ -99,7 +99,7 @@ section#about .clients-logo img{
 
 section#about .facts-title h4{
     text-align: justify;
-    text-decoration: underline 3px gold;
+    text-decoration: underline 3px goldenrod;
 }
 
 section#about .facts-items{
@@ -120,7 +120,7 @@ section#about .facts-items h5{
 }
 
 section#about .facts-items h2{
-    color: goldenrod;
+    color: goldenrodenrod;
     font-size: 25px;
     font-style: italic;
 }

@@ -28,7 +28,7 @@
 }
 
 .content section#home .coordonnee ul li{
-    text-decoration: underline 2px gold;
+    text-decoration: underline 2px goldenrod;
     margin-bottom: 20px;
     text-align: justify;
 }

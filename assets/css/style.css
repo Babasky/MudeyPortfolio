@@ -36,6 +36,10 @@ body{
     .container-fluid aside{
         width: 27%;   
     }
+
+    .container-fluid .content{
+        width: 100%;
+    }
 }
 
 
@@ -56,9 +60,10 @@ body{
     }
 
     .container-fluid .content{
-        width: 100vw;
-        height: 90vh;
+        overflow-x: hidden;
+        width: 100%;
         margin-left: 0;
+        padding-right: 0;
     }
 
 }

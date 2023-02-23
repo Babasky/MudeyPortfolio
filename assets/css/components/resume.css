@@ -1,0 +1,127 @@
+section#resume .resume-title h2{
+    text-align: justify;
+    background-color: goldenrod;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 10px 5px 80px;
+    font-style: italic;
+}
+
+section#resume .resume-container .resume-items h4{
+    text-align: justify;
+    text-decoration: underline 2px goldenrod;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    margin: 10px 10px;
+}
+
+section#resume .education h6.annee{
+    background-color: rgb(5, 231, 5);
+    text-align: right;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0px 5px 0px 30px;
+    margin-bottom: 15px;
+    width: 50px;
+}
+
+section#resume .course{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+section#resume .course h6{
+    margin-bottom: 0;
+}
+
+section#resume .course p{
+    text-align: left;
+    margin-top: 0;
+}
+
+section#resume .course p.university{
+    color: gray;
+}
+
+
+section#resume h6.experience-year{
+    background-color: rgb(5, 231, 5);
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 5px 5px 5px 30px;
+    margin-bottom: 15px;
+    width: 65%;
+    font-size: 0.8rem;
+}
+
+
+section#resume .experience-list p.enterprise{
+    color: gray;
+}
+
+section#resume .experience-details{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+section#resume .experience-details h6{
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+section#resume .experience-details p{
+    margin-top: 0;
+    text-align: left;
+}
+
+section#resume .design-list h6{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+section#resume .design-list .progress-bar{
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    height: 10px;
+}
+section#resume .design-list .percent{
+    background-color: goldenrod;
+    height: 8px;
+    width: 60%;
+    margin-top: -10px;
+}
+
+section#resume .skills-design .skills-coding{
+    margin-top: 40px;
+}
+
+section#resume  .bouton a{
+    border: 2px solid goldenrod;
+    padding: 10px 10px;
+}
+
+
+@media screen and (max-width:992px) {
+    
+    section#resume .resume-container .resume-items{
+        flex-direction: column;
+        width: 90%;
+    }   
+}
+
+
+@media screen and (max-width:427px) {
+    section#resume .resume-container{
+        padding: 0 50px;
+    }
+    section#resume .resume-container .resume-items{
+        width: 65vw;
+    }
+   
+
+}

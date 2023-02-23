@@ -38,7 +38,7 @@
 
 .menu ul li:hover{
     background-color: #f0eded;
-    border-right: 6px solid gold;
+    border-right: 4px solid goldenrod;
 }
 
 .menu ul li a:hover{
