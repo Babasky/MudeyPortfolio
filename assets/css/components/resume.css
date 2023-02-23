@@ -92,7 +92,6 @@ section#resume .design-list .progress-bar{
 section#resume .design-list .percent{
     background-color: goldenrod;
     height: 8px;
-    width: 60%;
     margin-top: -10px;
 }
 
