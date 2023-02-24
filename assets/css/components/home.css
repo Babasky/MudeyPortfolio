@@ -70,10 +70,10 @@
     }
 
     .content section#home .coordonnee{
-        margin-left: 30px;
+        margin-left: 80px;
     }
 
     .content section#home .coordonnee ul li{
-        font-size: 11px;
+        font-size: 0.5rem;
     }
 }
