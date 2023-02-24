@@ -1,0 +1,44 @@
+section#portfolio .portfolio-title h2{
+    background-color: goldenrod;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 10px 5px 30px;
+    font-style: italic;
+}
+
+section#portfolio .best-work p{
+    color: gray;
+}
+
+section#portfolio .portfolio-container .portfolio-nav a{
+    margin: 0;
+    text-transform: capitalize;
+    border: none;
+    font-size: 1.1rem;
+}
+section#portfolio .portfolio-container .portfolio-nav a:hover{
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+section#portfolio .portfolio-container .portfolio-image i{
+    display: inline-block;
+}
+
+
+@media screen and (max-width:768px) {
+    section#portfolio .portfolio-container .portfolio-image i{
+        width: 100%;
+    }
+    section#portfolio .portfolio-container .portfolio-nav a{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:427px) {
+    section#portfolio .portfolio-container .portfolio-nav a{
+        font-size: 0.5rem;
+    }
+}

@@ -19,10 +19,22 @@ body{
     
 }
 
+@media screen and (min-width:1500px) {
+    .container-fluid .content{
+        overflow-x: hidden;
+        width: 100%;
+    }
+}
+
+
+
 
 @media screen and (min-width:1400px) {
+    .container-fluid aside{
+        width: 17%;
+    }
     .container-fluid .content{
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -37,19 +49,18 @@ body{
 @media screen and (max-width:992px) {
     .container-fluid{
         flex-direction: column;
-        gap: 0;
+        overflow-x: hidden;
     }
 
     .container-fluid aside{
-        width: 27%;   
+        width: 20%;   
     }
 
     .container-fluid .content{
-        width: 100%;
+        margin-left: 170px;
+        width: 82.5%;
     }
 }
-
-
 
 @media screen and (max-width:768px) {
     .container-fluid{
@@ -74,3 +85,5 @@ body{
     }
 
 }
+
+ 

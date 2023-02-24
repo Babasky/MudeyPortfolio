@@ -3,8 +3,12 @@ section#resume .resume-title h2{
     background-color: goldenrod;
     font-size: 1.5rem;
     color: white;
-    padding: 5px 10px 5px 80px;
+    padding: 5px 10px 5px 30px;
     font-style: italic;
+}
+
+section#resume .resume .year-experience p{
+    color: gray;
 }
 
 section#resume .resume-container .resume-items h4{

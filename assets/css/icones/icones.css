@@ -1,0 +1,39 @@
+.bg-fruits {
+    width: 200px; height: 200px;
+    background: url('css_sprites.css') -10px -10px;
+}
+
+.bg-flat {
+    width: 200px; height: 200px;
+    background: url('/assets/images/css_sprites.png') -3890px -10px;
+}
+
+.bg-plans {
+    width: 200px; height: 200px;
+    background: url('/assets/images/css_sprites.png') -1950px -10px;
+}
+
+
+.bg-code {
+    width: 200px; height: 200px;
+    background: url('./assets/images/css_sprites.png') -3890px -1302px;
+}
+
+
+.bg-home {
+    width: 200px; height: 200px;
+    background: url('./assets/images/css_sprites.png') -1950px -1310px;
+}
+
+
+.bg-architecture {
+    width: 200px; height: 200px;
+    background: url('./assets/images/css_sprites.png') -10px -1310px;
+}
+
+
+.bg-programming {
+    width: 200px; height: 200px;
+    background: url('./assets/images/css_sprites.png') -10px -2610px;
+}
+
