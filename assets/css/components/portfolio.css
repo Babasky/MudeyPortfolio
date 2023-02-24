@@ -14,7 +14,7 @@ section#portfolio .portfolio-container .portfolio-nav a{
     margin: 0;
     text-transform: capitalize;
     border: none;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 section#portfolio .portfolio-container .portfolio-nav a:hover{
     background-color: goldenrod;
