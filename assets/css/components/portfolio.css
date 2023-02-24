@@ -41,4 +41,8 @@ section#portfolio .portfolio-container .portfolio-image i{
     section#portfolio .portfolio-container .portfolio-nav a{
         font-size: 0.5rem;
     }
+
+    section#portfolio .portfolio-container{
+        padding: 0 40px;
+    }
 }
