@@ -1,0 +1,28 @@
+section#blog .blog-title h2{
+    background-color: goldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 5px 10px 5px 30px;
+}
+
+section#blog .diary p{
+    color: gray;
+}
+
+
+.blog-container .blog-list-item{
+  box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.blog-container .blog-list-item img{
+    width: 400px;
+    height: 200px;
+}
+
+
+@media screen and (max-width:427px) {
+    .blog-container .blog-list-item img{
+        width: 100%;
+    }
+}
