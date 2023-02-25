@@ -22,13 +22,13 @@ section#portfolio .portfolio-container .portfolio-nav a:hover{
     font-weight: bold;
 }
 
-section#portfolio .portfolio-container .portfolio-image i{
-    display: inline-block;
+section#portfolio .portfolio-container .portfolio-image img{
+    width: 200px;
 }
 
 
 @media screen and (max-width:768px) {
-    section#portfolio .portfolio-container .portfolio-image i{
+    section#portfolio .portfolio-container .portfolio-image img{
         width: 100%;
     }
     section#portfolio .portfolio-container .portfolio-nav a{
