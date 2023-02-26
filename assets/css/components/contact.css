@@ -1,0 +1,112 @@
+section#contact .contact-title h2{
+    background-color: goldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 5px 10px 5px 30px;
+}
+
+section#contact .get-touch p{
+    color: gray;
+}
+section#contact .contact-item h5{
+    text-decoration: underline 2px goldenrod;
+    text-align: justify;
+}
+
+section#contact .contact-item .get{
+    text-align: justify;
+    width: 350px;
+}
+
+section#contact .contact-item .contact-form{
+    width: 350px;
+}
+
+section#contact .contact-item .get ul li{
+    margin-bottom: 20px;
+}
+
+section#contact .contact-item .get ul li i{
+    margin-right: 15px;
+}
+
+section#contact .contact-item .contact-form input{
+    height: 20px;
+    padding: 10px 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: 0.1px solid gray;
+    outline: none;
+}
+
+section#contact .contact-item .full-name i ,section#contact .contact-item .email-form i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: gray;
+}
+section#contact .contact-item .message textarea{
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 90%;
+    outline: none;
+    resize: none;
+}
+section#contact .contact-item .message i{
+    right: 20px;
+    top: 10px;
+    color: gray;
+}
+
+.recaptcha{
+    margin-top:30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #efefef;
+    height: 90px;
+}
+
+.recaptcha input{
+    height: 20px;
+    width: 20px;
+}
+
+.check{
+    margin-top: 30px;
+}
+
+.check .robot{
+    margin-top: 5px;
+}
+
+
+.recap-image img{
+    width: 100px;
+}
+
+.recap-image p{
+    margin-top: -20px;
+}
+
+/*@media screen and (max-width:992px) {
+    section#contact .contact-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}*/
+
+@media screen and (max-width:768px) {
+    section#contact .contact-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#contact .contact-item h5{
+        text-align: center;
+    }
+    
+}
+
+

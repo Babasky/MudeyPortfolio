@@ -165,11 +165,11 @@ section#about .facts-items h2{
     section#about .container-presentation{
         padding-left: 20px;
         padding-right: 20px;
-        gap: 20px;
     }
     section#about .container-presentation .testimonials .testimonials-description p{
         margin-left: 0;
         margin-bottom: 10px;
+        width: 250px;
     }
     section#about .container-presentation .testimonials .testimonial-image img{
         left: -20px;
@@ -201,10 +201,12 @@ section#about .facts-items h2{
 
     section#about .container-presentation{
         flex-direction: column;
+        padding-left: 50px;
     }
 
+
     section#about .container-presentation .presentation p{
-        width: 90%;
+        width: 80%;
     }
 
     section#about .container-presentation .testimonials{
@@ -222,7 +224,13 @@ section#about .facts-items h2{
     }
 
     section#about .container-presentation .testimonials .defilement{
-        margin-right: 68px;
+        margin-right: 70px
+    }
+
+
+    section#about .services .service-title h4{
+        text-align: center;
+        margin: 30px 0;
     }
 
     section#about .services-list{
@@ -235,6 +243,22 @@ section#about .facts-items h2{
         width: 70%;
         margin: 0 auto;
     }
+
+    section#about .clients-title h4{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    section#about .facts-title h4{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    section#about .facts-list .facts-items{
+        width: 400px;
+        margin: 0 auto;
+    }
+
 
 
 }
@@ -265,8 +289,10 @@ section#about .facts-items h2{
 
     section#about .container-presentation .testimonials .testimonials-description p{
         margin: 20px auto;
-        width: 100%;
+        width: 80%;
     }
+
+
 
     section#about .services .service-title h4{
         text-align: center;

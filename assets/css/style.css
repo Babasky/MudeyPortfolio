@@ -53,12 +53,12 @@ body{
     }
 
     .container-fluid aside{
-        width: 20%;   
+        width: 200px;   
     }
 
     .container-fluid .content{
-        margin-left: 100px;
-        width: 100%;
+        margin-left: 200px;
+        width: 80%;
     }
 }
 
