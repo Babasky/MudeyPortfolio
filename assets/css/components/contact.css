@@ -16,11 +16,11 @@ section#contact .contact-item h5{
 
 section#contact .contact-item .get{
     text-align: justify;
-    width: 350px;
+    width: 300px;
 }
 
 section#contact .contact-item .contact-form{
-    width: 350px;
+    width: 300px;
 }
 
 section#contact .contact-item .get ul li{
@@ -89,13 +89,13 @@ section#contact .contact-item .message i{
     margin-top: -20px;
 }
 
-/*@media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
     section#contact .contact-item{
         flex-direction: column;
         align-items: center;
     }
 
-}*/
+}
 
 @media screen and (max-width:768px) {
     section#contact .contact-item{
@@ -107,6 +107,24 @@ section#contact .contact-item .message i{
         text-align: center;
     }
     
+}
+
+
+@media screen and (max-width:427px) {
+    section#contact .contact-container{
+        width: 400px;
+        padding: 30px;
+    }
+    section#contact .contact-item{
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+    }
+
+    section#contact .contact-item p{
+        font-size: 12px;
+    }
 }
 
 
