@@ -46,7 +46,7 @@ section#resume .education h6.annee::after{
     position: absolute;
     top: 100%;
     left: 0;
-    border: 5px solid rgb(198, 54, 2);
+    border: 5px solid green;
     border-bottom: 5px solid #fff;
     border-left: 5px solid #fff;
 }
@@ -85,7 +85,7 @@ section#resume h6.experience-year::after{
     position: absolute;
     top: 100%;
     left: 0;
-    border: 5px solid rgb(198, 54, 2);
+    border: 5px solid green;
     border-bottom: 5px solid #fff;
     border-left: 5px solid #fff;
 }
@@ -137,13 +137,52 @@ section#resume  .bouton a{
     padding: 10px 10px;
 }
 
+@media screen and (min-width:1500px) {
+    section#resume .education h6.annee{
+        margin-left: -330px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -170px;
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+    section#resume .education h6.annee{
+        margin-left: -270px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -110px;
+    }
+}
+
 
 @media screen and (max-width:992px) {
     
     section#resume .resume-container .resume-items{
         flex-direction: column;
         width: 90%;
-    }   
+    }
+    
+    section#resume .education h6.annee{
+        margin-left: -440px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -330px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    section#resume .education h6.annee{
+        margin-left: -250px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -150px;
+    }
 }
 
 
@@ -157,6 +196,10 @@ section#resume  .bouton a{
    
     section#resume .education h6.annee{
         margin-left: -190px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -80px;
     }
 
 }
