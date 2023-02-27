@@ -1,9 +1,22 @@
 section#resume .resume-title h2{
     background-color: goldenrod;
-    font-size: 1.5rem;
+    display: inline-block;
+    font-size: 1.2rem;
     color: white;
-    padding: 5px 10px 5px 30px;
-    font-style: italic;
+    padding: 10px 50px;
+    position: relative;
+}
+
+
+section#resume .resume-title h2::after{
+    background-color: goldenrod;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid rgb(198, 54, 2);
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
 }
 
 section#resume .resume .year-experience p{
@@ -19,14 +32,23 @@ section#resume .resume-container .resume-items h4{
 }
 
 section#resume .education h6.annee{
-    background-color: rgb(5, 231, 5);
-    text-align: right;
+    background-color: green;
+    display: inline-block;
     color: white;
-    font-size: 0.9rem;
-    font-weight: bold;
-    padding: 0px 5px 0px 30px;
-    margin-bottom: 15px;
-    width: 50px;
+    margin-left: -215px;
+    padding: 10px 50px;
+    position: relative;
+}
+
+section#resume .education h6.annee::after{
+    background-color: green;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid rgb(198, 54, 2);
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
 }
 
 section#resume .course{
@@ -49,15 +71,23 @@ section#resume .course p.university{
 
 
 section#resume h6.experience-year{
-    background-color: rgb(5, 231, 5);
-    text-align: center;
+    background-color: green;
+    display: inline-block;
     color: white;
-    white-space: nowrap;
-    font-weight: bold;
-    padding: 5px 5px 5px 30px;
-    margin-bottom: 15px;
-    width: 65%;
-    font-size: 0.8rem;
+    margin-left: -60px;
+    padding: 10px 50px;
+    position: relative;
+}
+
+section#resume h6.experience-year::after{
+    background-color: green;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid rgb(198, 54, 2);
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
 }
 
 
@@ -125,5 +155,8 @@ section#resume  .bouton a{
         width: 300px;
     }
    
+    section#resume .education h6.annee{
+        margin-left: -190px;
+    }
 
 }

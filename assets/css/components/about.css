@@ -4,11 +4,22 @@ section#about{
 
 section#about .about-title h2{
     background-color: goldenrod;
-    font-size: 1.2rem;
-    font-style: italic;
-    margin-bottom: 5px;
+    display: inline-block;
     color: white;
-    padding: 10px 10px 10px 30px;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    position: relative;
+}
+
+section#about .about-title h2::after{
+    background-color: goldenrod;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid rgb(198, 54, 2);
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
 }
 
 section#about .about-job p{
@@ -298,17 +309,20 @@ section#about .facts-items h2{
         text-align: center;
     }
 
-    section#about .services-list, section#about .facts-list{
-        flex-wrap: wrap;
-        justify-content: center;
+    section#about .fun-facts{
+        margin: 0 auto;
     }
 
-    section#about .facts-list .facts-items, section#about .services-list .services-list-item{
+    section#about .facts-list .facts-items{
+        width: 300px;
+    }
+
+    section#about .services-list .services-list-item{
         width: 100%;
     }
 
     section#about .fun-facts,section#about .clients{
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
 
@@ -404,5 +418,9 @@ section#about .facts-items h2{
     section#about .fun-facts{
         width: 300px;
         padding: 0 30px;
+    }
+
+    section#about .facts-list .facts-items{
+        width: 90%;
     }
 }
