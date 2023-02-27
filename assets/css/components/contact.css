@@ -60,7 +60,7 @@ section#contact .contact-item .message i{
 }
 
 .recaptcha{
-    margin-top:30px;
+    margin-top:10px;
     border: 1px solid gray;
     border-radius: 5px;
     background-color: #efefef;
@@ -87,6 +87,14 @@ section#contact .contact-item .message i{
 
 .recap-image p{
     margin-top: -20px;
+}
+
+section#contact .contact-item .contact-form button{
+    margin-top: 10px;
+    float: left;
+    border: 2px solid goldenrod;
+    text-transform: none;
+    font-size: 1rem;
 }
 
 @media screen and (max-width:992px) {
