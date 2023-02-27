@@ -119,10 +119,10 @@ section#resume  .bouton a{
 
 @media screen and (max-width:427px) {
     section#resume .resume-container{
-        padding: 0 50px;
+        padding: 0 30px;
     }
     section#resume .resume-container .resume-items{
-        width: 65vw;
+        width: 300px;
     }
    
 

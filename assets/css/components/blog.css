@@ -47,6 +47,9 @@ section#blog .diary p{
 
 
 @media screen and (max-width:427px) {
+    .blog-container{
+        padding: 0 30px;
+    }
     .blog-container .blog-list-item img{
         width: 300px;
     }

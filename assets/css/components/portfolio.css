@@ -43,6 +43,10 @@ section#portfolio .portfolio-container .portfolio-image img{
     }
 
     section#portfolio .portfolio-container{
-        padding: 0 40px;
+        padding: 0 30px;
+    }
+
+    section#portfolio .portfolio-container .portfolio-image img{
+        width: 300px;
     }
 }
