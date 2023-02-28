@@ -150,13 +150,14 @@ section#resume  .bouton a{
 
 @media screen and (max-width:1400px) {
     section#resume .education h6.annee{
-        margin-left: -270px;
+        margin-left: -220px;
     }
 
     section#resume h6.experience-year{
-        margin-left: -110px;
+        margin-left: -80px;
     }
 }
+
 
 
 @media screen and (max-width:992px) {
