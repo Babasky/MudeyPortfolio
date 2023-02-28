@@ -185,6 +185,22 @@ section#resume  .bouton a{
     }
 }
 
+@media screen and (max-width:480px) {
+    section#resume .education h6.annee{
+        margin-left: -150px;
+    }
+
+    section#resume h6.e section#resume .education h6.annee{
+        margin-left: -250px;
+    }
+
+    section#resume h6.experience-year{
+        margin-left: -150px;
+    }xperience-year{
+        margin-left: -50px;
+    }   
+}
+
 
 @media screen and (max-width:427px) {
     section#resume .resume-container{
