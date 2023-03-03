@@ -1,27 +1,4 @@
-section#contact .contact-title h2{
-    background-color: goldenrod;
-    display: inline-block;
-    font-size: 1.2rem;
-    color: white;
-    padding: 10px 50px;
-    position: relative;
-}
 
-
-section#contact .contact-title h2::after{
-    background-color: goldenrod;
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    border: 5px solid goldenrod;
-    border-bottom: 5px solid #fff;
-    border-left: 5px solid #fff;
-}
-
-section#contact .get-touch p{
-    color: gray;
-}
 section#contact .contact-item h5{
     text-decoration: underline 2px goldenrod;
     text-align: justify;
@@ -29,11 +6,11 @@ section#contact .contact-item h5{
 
 section#contact .contact-item .get{
     text-align: justify;
-    width: 300px;
+    width: 500px;
 }
 
 section#contact .contact-item .contact-form{
-    width: 300px;
+    width: 500px;
 }
 
 section#contact .contact-item .get ul li{
@@ -41,7 +18,7 @@ section#contact .contact-item .get ul li{
 }
 
 section#contact .contact-item .get ul li i{
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 section#contact .contact-item .contact-form input{
@@ -55,19 +32,18 @@ section#contact .contact-item .contact-form input{
 
 section#contact .contact-item .full-name i ,section#contact .contact-item .email-form i{
     position: absolute;
-    right: 20px;
+    right: 40px;
     top: 10px;
     color: gray;
 }
 section#contact .contact-item .message textarea{
-    padding-top: 10px;
-    padding-left: 5px;
+    padding: 10px 10px;
     width: 90%;
     outline: none;
     resize: none;
 }
 section#contact .contact-item .message i{
-    right: 20px;
+    right: 40px;
     top: 10px;
     color: gray;
 }
@@ -99,7 +75,7 @@ section#contact .contact-item .message i{
 }
 
 .recap-image p{
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 section#contact .contact-item .contact-form button{
